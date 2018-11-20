@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C644E5DB218FE51D00A6EBC9 /* spy-rest.png in Sources */ = {isa = PBXBuildFile; fileRef = C644E5DA218FE51D00A6EBC9 /* spy-rest.png */; };
+		C644E5E22190D12A00A6EBC9 /* zombie-rest.png in Sources */ = {isa = PBXBuildFile; fileRef = C644E5E12190D12900A6EBC9 /* zombie-rest.png */; };
+		C644E5E52190D67D00A6EBC9 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C644E5E32190D67D00A6EBC9 /* Vector2D.cpp */; };
+		C644E5F2219146F700A6EBC9 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C644E5F0219146F700A6EBC9 /* Collision.cpp */; };
+		C644E5F421914F4F00A6EBC9 /* floor.png in Sources */ = {isa = PBXBuildFile; fileRef = C644E5F321914F4F00A6EBC9 /* floor.png */; };
+		C64D400B2176BF72008DEAFB /* LoaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C64D400A2176BF72008DEAFB /* LoaderManager.cpp */; };
+		C67BC93D219E7BDC00932B20 /* zombie.png in Sources */ = {isa = PBXBuildFile; fileRef = C67BC93C219E7BDC00932B20 /* zombie.png */; };
+		C67BC946219F39B800932B20 /* gameover.png in Sources */ = {isa = PBXBuildFile; fileRef = C67BC945219F39B800932B20 /* gameover.png */; };
+		C67BC949219FB5BC00932B20 /* background.png in Sources */ = {isa = PBXBuildFile; fileRef = C67BC948219FB5BB00932B20 /* background.png */; };
+		C67BC94C219FE6BC00932B20 /* hurt.png in Sources */ = {isa = PBXBuildFile; fileRef = C67BC94B219FE6BC00932B20 /* hurt.png */; };
+		C68F7DAB217660020071356A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C68F7DA9217660020071356A /* Game.cpp */; };
+		C6BE7E9F215C13CE00A25421 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6BE7E9E215C13CE00A25421 /* main.cpp */; };
+		C6BF419D218761FD00C4BAB5 /* title.png in Sources */ = {isa = PBXBuildFile; fileRef = C6BF419C218761FD00C4BAB5 /* title.png */; };
+		C6C4E657219153B500E3231F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68F7DC021766CB10071356A /* SDL2_image.framework */; };
+		C6C4E658219153D900E3231F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63F0FB3215C367700118DF7 /* SDL2.framework */; };
+		C6C4E65A21915E4700E3231F /* back-prueba.png in Sources */ = {isa = PBXBuildFile; fileRef = C6C4E65921915E4700E3231F /* back-prueba.png */; };
+		C6C4E65B2191818500E3231F /* personajes in Sources */ = {isa = PBXBuildFile; fileRef = C68F7DC221766DEB0071356A /* personajes */; };
+		C6C4E65D2191819600E3231F /* spy.png in Sources */ = {isa = PBXBuildFile; fileRef = C6C4E65C2191819600E3231F /* spy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6BE7E99215C13CE00A25421 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C63F0FB3215C367700118DF7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		C644E5DA218FE51D00A6EBC9 /* spy-rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spy-rest.png"; path = "personajes/spy-rest.png"; sourceTree = "<group>"; };
+		C644E5E12190D12900A6EBC9 /* zombie-rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zombie-rest.png"; path = "personajes/zombie-rest.png"; sourceTree = "<group>"; };
+		C644E5E32190D67D00A6EBC9 /* Vector2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2D.cpp; sourceTree = "<group>"; };
+		C644E5E42190D67D00A6EBC9 /* Vector2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector2D.hpp; sourceTree = "<group>"; };
+		C644E5EA21910F8D00A6EBC9 /* KeyboardController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyboardController.hpp; sourceTree = "<group>"; };
+		C644E5EE21913F8700A6EBC9 /* ColliderComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ColliderComponent.hpp; sourceTree = "<group>"; };
+		C644E5F0219146F700A6EBC9 /* Collision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Collision.cpp; sourceTree = "<group>"; };
+		C644E5F1219146F700A6EBC9 /* Collision.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Collision.hpp; sourceTree = "<group>"; };
+		C644E5F321914F4F00A6EBC9 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = floor.png; path = personajes/floor.png; sourceTree = "<group>"; };
+		C64D400A2176BF72008DEAFB /* LoaderManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoaderManager.cpp; sourceTree = "<group>"; };
+		C64D400C2176BF7B008DEAFB /* LoaderManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LoaderManager.hpp; sourceTree = "<group>"; };
+		C64D401621770A80008DEAFB /* ECS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECS.hpp; sourceTree = "<group>"; };
+		C64D4019217719B6008DEAFB /* Components.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Components.hpp; sourceTree = "<group>"; };
+		C64D401C21771F00008DEAFB /* TransformComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TransformComponent.hpp; sourceTree = "<group>"; };
+		C64D401F21771F11008DEAFB /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		C67BC93C219E7BDC00932B20 /* zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zombie.png; path = personajes/zombie.png; sourceTree = "<group>"; };
+		C67BC93F219E7F2F00932B20 /* MovingController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MovingController.hpp; sourceTree = "<group>"; };
+		C67BC944219F269700932B20 /* BackgroundController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundController.h; sourceTree = "<group>"; };
+		C67BC945219F39B800932B20 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameover.png; path = GAME/gameover.png; sourceTree = "<group>"; };
+		C67BC947219F3AE600932B20 /* ScrollingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollingController.h; sourceTree = "<group>"; };
+		C67BC948219FB5BB00932B20 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = personajes/background.png; sourceTree = "<group>"; };
+		C67BC94B219FE6BC00932B20 /* hurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hurt.png; path = personajes/hurt.png; sourceTree = "<group>"; };
+		C68F7DA9217660020071356A /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		C68F7DAA217660020071356A /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C68F7DAD217660140071356A /* AnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		C68F7DC021766CB10071356A /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		C68F7DC221766DEB0071356A /* personajes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = personajes; sourceTree = SOURCE_ROOT; };
+		C6BDF30A21767642002E2F58 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2_image/2.0.3/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		C6BDF30C2176766D002E2F58 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.8/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		C6BDF30E2176789B002E2F58 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		C6BDF30F2176789B002E2F58 /* zlib1.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = zlib1.dll; path = Frameworks/zlib1.dll; sourceTree = "<group>"; };
+		C6BDF3102176789B002E2F58 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		C6BDF314217678DD002E2F58 /* SDL2_image */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = SDL2_image; path = "../../../../Volumes/SDL2_image 1/SDL2_image.framework/Versions/A/SDL2_image"; sourceTree = "<group>"; };
+		C6BDF31621767933002E2F58 /* libpng16-16.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libpng16-16.dll"; path = "Frameworks/libpng16-16.dll"; sourceTree = "<group>"; };
+		C6BDF31821767994002E2F58 /* sdl2_image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sdl2_image; path = ../../../../usr/local/Cellar/sdl2_image; sourceTree = "<group>"; };
+		C6BDF31921767994002E2F58 /* sdl2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sdl2; path = ../../../../usr/local/Cellar/sdl2; sourceTree = "<group>"; };
+		C6BE7E9B215C13CE00A25421 /* GAME */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GAME; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BE7E9E215C13CE00A25421 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6BF419C218761FD00C4BAB5 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = personajes/title.png; sourceTree = "<group>"; };
+		C6C4E65921915E4700E3231F /* back-prueba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-prueba.png"; path = "personajes/back-prueba.png"; sourceTree = "<group>"; };
+		C6C4E65C2191819600E3231F /* spy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spy.png; path = personajes/spy.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6BE7E98215C13CE00A25421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C4E658219153D900E3231F /* SDL2.framework in Frameworks */,
+				C6C4E657219153B500E3231F /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63F0FB2215C367700118DF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6BDF31921767994002E2F58 /* sdl2 */,
+				C6BDF31821767994002E2F58 /* sdl2_image */,
+				C6BDF31621767933002E2F58 /* libpng16-16.dll */,
+				C6BDF314217678DD002E2F58 /* SDL2_image */,
+				C6BDF30E2176789B002E2F58 /* SDL2_image.framework */,
+				C6BDF3102176789B002E2F58 /* SDL2.framework */,
+				C6BDF30F2176789B002E2F58 /* zlib1.dll */,
+				C6BDF30C2176766D002E2F58 /* libSDL2-2.0.0.dylib */,
+				C6BDF30A21767642002E2F58 /* libSDL2_image-2.0.0.dylib */,
+				C68F7DC021766CB10071356A /* SDL2_image.framework */,
+				C63F0FB3215C367700118DF7 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64D402121772185008DEAFB /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				C67BC947219F3AE600932B20 /* ScrollingController.h */,
+				C67BC944219F269700932B20 /* BackgroundController.h */,
+				C67BC93F219E7F2F00932B20 /* MovingController.hpp */,
+				C68F7DAD217660140071356A /* AnimationController.h */,
+				C644E5EE21913F8700A6EBC9 /* ColliderComponent.hpp */,
+				C644E5EA21910F8D00A6EBC9 /* KeyboardController.hpp */,
+				C64D401F21771F11008DEAFB /* Sprite.hpp */,
+				C64D401C21771F00008DEAFB /* TransformComponent.hpp */,
+				C64D4019217719B6008DEAFB /* Components.hpp */,
+				C64D401621770A80008DEAFB /* ECS.hpp */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		C6BE7E92215C13CE00A25421 = {
+			isa = PBXGroup;
+			children = (
+				C67BC94B219FE6BC00932B20 /* hurt.png */,
+				C67BC948219FB5BB00932B20 /* background.png */,
+				C67BC945219F39B800932B20 /* gameover.png */,
+				C67BC93C219E7BDC00932B20 /* zombie.png */,
+				C6C4E65C2191819600E3231F /* spy.png */,
+				C6C4E65921915E4700E3231F /* back-prueba.png */,
+				C644E5F321914F4F00A6EBC9 /* floor.png */,
+				C644E5E12190D12900A6EBC9 /* zombie-rest.png */,
+				C644E5DA218FE51D00A6EBC9 /* spy-rest.png */,
+				C6BF419C218761FD00C4BAB5 /* title.png */,
+				C6BE7E9D215C13CE00A25421 /* GAME */,
+				C6BE7E9C215C13CE00A25421 /* Products */,
+				C63F0FB2215C367700118DF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6BE7E9C215C13CE00A25421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE7E9B215C13CE00A25421 /* GAME */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BE7E9D215C13CE00A25421 /* GAME */ = {
+			isa = PBXGroup;
+			children = (
+				C68F7DC221766DEB0071356A /* personajes */,
+				C64D402121772185008DEAFB /* ECS */,
+				C644E5F0219146F700A6EBC9 /* Collision.cpp */,
+				C644E5F1219146F700A6EBC9 /* Collision.hpp */,
+				C644E5E32190D67D00A6EBC9 /* Vector2D.cpp */,
+				C644E5E42190D67D00A6EBC9 /* Vector2D.hpp */,
+				C64D400A2176BF72008DEAFB /* LoaderManager.cpp */,
+				C64D400C2176BF7B008DEAFB /* LoaderManager.hpp */,
+				C68F7DA9217660020071356A /* Game.cpp */,
+				C68F7DAA217660020071356A /* Game.h */,
+				C6BE7E9E215C13CE00A25421 /* main.cpp */,
+			);
+			path = GAME;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6BE7E9A215C13CE00A25421 /* GAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BE7EA2215C13CE00A25421 /* Build configuration list for PBXNativeTarget "GAME" */;
+			buildPhases = (
+				C6BE7E97215C13CE00A25421 /* Sources */,
+				C6BE7E98215C13CE00A25421 /* Frameworks */,
+				C6BE7E99215C13CE00A25421 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAME;
+			productName = GAME;
+			productReference = C6BE7E9B215C13CE00A25421 /* GAME */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6BE7E93215C13CE00A25421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Andrea Diaz ♡";
+				TargetAttributes = {
+					C6BE7E9A215C13CE00A25421 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6BE7E96215C13CE00A25421 /* Build configuration list for PBXProject "GAME" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6BE7E92215C13CE00A25421;
+			productRefGroup = C6BE7E9C215C13CE00A25421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6BE7E9A215C13CE00A25421 /* GAME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6BE7E97215C13CE00A25421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67BC94C219FE6BC00932B20 /* hurt.png in Sources */,
+				C67BC949219FB5BC00932B20 /* background.png in Sources */,
+				C67BC946219F39B800932B20 /* gameover.png in Sources */,
+				C67BC93D219E7BDC00932B20 /* zombie.png in Sources */,
+				C6C4E65D2191819600E3231F /* spy.png in Sources */,
+				C6C4E65B2191818500E3231F /* personajes in Sources */,
+				C6C4E65A21915E4700E3231F /* back-prueba.png in Sources */,
+				C644E5F421914F4F00A6EBC9 /* floor.png in Sources */,
+				C644E5E22190D12A00A6EBC9 /* zombie-rest.png in Sources */,
+				C644E5DB218FE51D00A6EBC9 /* spy-rest.png in Sources */,
+				C6BE7E9F215C13CE00A25421 /* main.cpp in Sources */,
+				C6BF419D218761FD00C4BAB5 /* title.png in Sources */,
+				C644E5F2219146F700A6EBC9 /* Collision.cpp in Sources */,
+				C644E5E52190D67D00A6EBC9 /* Vector2D.cpp in Sources */,
+				C64D400B2176BF72008DEAFB /* LoaderManager.cpp in Sources */,
+				C68F7DAB217660020071356A /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6BE7EA0215C13CE00A25421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6BE7EA1215C13CE00A25421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6BE7EA3215C13CE00A25421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ABN7RGC99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2_image/2.0.3/lib,
+					/usr/local/Cellar/sdl2/2.0.8/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6BE7EA4215C13CE00A25421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ABN7RGC99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2_image/2.0.3/lib,
+					/usr/local/Cellar/sdl2/2.0.8/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6BE7E96215C13CE00A25421 /* Build configuration list for PBXProject "GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BE7EA0215C13CE00A25421 /* Debug */,
+				C6BE7EA1215C13CE00A25421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BE7EA2215C13CE00A25421 /* Build configuration list for PBXNativeTarget "GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BE7EA3215C13CE00A25421 /* Debug */,
+				C6BE7EA4215C13CE00A25421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6BE7E93215C13CE00A25421 /* Project object */;
+}

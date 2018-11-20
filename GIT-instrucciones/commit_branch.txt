@@ -1,0 +1,33 @@
+1ro -> entrar a la carpeta del proyecto
+andreadiaz@andrea-2: cd projects/GAME/
+
+2do -> hacer update
+andreadiaz@andrea-2:~/projects/GAME$ git pull origin massimo.imparato
+
+3ro -> fijarte que estas en tu branch
+andreadiaz@andrea-2:~/projects/GAME$ git status
+On branch andrea.diaz
+
+	si no estas en tu branch
+	andreadiaz@andrea-2:~/projects/GAME$ git checkout andrea.diaz
+	Switched to branch 'andrea.diaz'
+
+4to -> ver los archivos que vas a subir
+andreadiaz@andrea-2:~/projects/GAME$ git status
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	blah.txt
+
+5to -> agregar el archivo
+andreadiaz@andrea-2:~/projects/GAME$ git add blah.txt
+
+6to -> poner mensaje de lo que se esta subiendo (no muy largo)
+andreadiaz@andrea-2:~/projects/GAME$ git commit -m "nuevo archivo de instrucciones"
+
+7to -> subirlo a tu branch 
+andreadiaz@andrea-2:~/projects/GAME$ git push origin andrea.diaz
+
+8vo -> avisarle a Andrea que he subido algo!!
+massimo: Andrea, subi algo al repositorio
+andrea: ok
