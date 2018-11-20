@@ -22,4 +22,4 @@ presionar enter
 ```
 brew install sdl2_image
 ```
-al descargar si entras al archivo GAME.xcodeproj, los frameworks ya estaran linkeados al proyecto.
+al descargar si entras al archivo GAME.xcodeproj los frameworks ya estaran linkeados al proyecto.
