@@ -14,7 +14,7 @@ class Game {
 protected:
     bool running_game;
     SDL_Window* window;
-    int life = 4000;
+    int life = 6000;
     
 public:
     static SDL_Renderer* renderer;

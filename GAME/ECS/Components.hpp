@@ -17,7 +17,6 @@
 #include "BackgroundController.h"
 #include "MovingController.hpp"
 #include "ScrollingController.h"
-#include "PointsController.h"
 
 
 #endif /* Components_hpp */
